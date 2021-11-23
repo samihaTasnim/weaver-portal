@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0064d0;
+}
+.MuiTableRow-root.MuiTableRow-head {
+  background: #0064d0;
+}
+.MuiTableCell-root.MuiTableCell-head {
+  color: white;
+}
+
+.MuiTableRow-head {
+  background: #7eabfd;
+  border-radius: 10px;
+}
+.MuiTableRow-root.MuiTableRow-head > th {
+  font-weight: 500;
+  // color: black;
+}
+.MuiPaper-root.MuiTableContainer-root.MuiPaper-elevation1.MuiPaper-rounded {
+  border-radius: 20px;
+}
+.title1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #106dd2;
+}
+.row1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.search1 {
+  border: 1px solid #106dd2;
+  border-radius: 20px;
+  padding: 6px;
+}
+.bt1 {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bt1:hover {
+  background-color: #106dd2;
+}
+.btn2 {
+  background-color: #106dd2;
+}
+
+.view-btn {
+  color: #0064d0;
+  background-color: white;
+  border-color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #bbbbbb;
+  width: 100%;
+}
+
+.ml-3,
+.rtl .settings-panel .sidebar-bg-options .rounded-circle,
+.rtl .settings-panel .sidebar-bg-options .color-tiles .tiles,
+.rtl .settings-panel .color-tiles .sidebar-bg-options .tiles,
+.mx-3 {
+  margin-left: 0rem !important;
+}
+.table-row1 {
+  padding: 5px 7px !important;
+  background: #f0f0f0;
+  color: #106dd2 !important;
+  font-weight: 500 !important;
+  font-size: 10px;
+}
+.table-row2 {
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+  font-weight: 400 !important;
+  font-size: x-small !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 0) !important;
+}
+.row1 {
+  background: #f0f0f0;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-2 {
+  color: #5e5e5e !important;
+}
+.row3 {
+  width: 250px;
+}
+
+.RSPBprogression {
+  background: rgba(0, 116, 217, 1);
+}
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.accomplished {
+  background: #0074d9;
+}
+.MuiTableCell-body {
+  font-family: "Roboto" !important;
+  font-weight: 401 !important;
+  color: #0064d0;
+}
+.RSPBprogressBar {
+  margin: 0px;
+  height: 2px !important;
+  margin-left: 10px;
+  width: auto;
+  margin-right: 10px;
+}
+.tablerow {
+  color: #5e5e5e !important;
+  font-weight: 200;
+}
+.tablerow1 {
+  color: #5e5e5e !important;
+}
+.tablerow1:hover {
+  color: white !important;
+}
+.icon1 {
+  color: #106dd2 !important;
+  padding: 10px !important;
+  font-size: 16px;
+}
+
+.setbtn {
+  padding: 3px !important;
+  line-height: 1 !important;
+  // font-size: 0.475rem;
+}

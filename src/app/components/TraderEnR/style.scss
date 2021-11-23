@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0064d0;
+}
+font {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: white;
+}
+
+.MuiTableRow-root.MuiTableRow-head {
+  background: #0064d0;
+}
+.MuiTableCell-root.MuiTableCell-head {
+  color: white;
+}
+
+.MuiTableRow-head {
+  background: #7eabfd;
+  border-radius: 10px;
+}
+.MuiTableRow-root.MuiTableRow-head > th {
+  font-weight: 500;
+  // color: black;
+}
+.MuiPaper-root.MuiTableContainer-root.MuiPaper-elevation1.MuiPaper-rounded {
+  border-radius: 20px;
+}
+.title1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #106dd2;
+}
+.row1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.search1 {
+  border: 1px solid #106dd2;
+  border-radius: 20px;
+  padding: 6px;
+}
+.bt1 {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bt1:hover {
+  background-color: #106dd2;
+}
+.btn2 {
+  background-color: #106dd2;
+}
+
+.view-btn {
+  color: #0064d0;
+  background-color: white;
+  border-color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #bbbbbb;
+  width: 100%;
+}
+
+.ml-3,
+.rtl .settings-panel .sidebar-bg-options .rounded-circle,
+.rtl .settings-panel .sidebar-bg-options .color-tiles .tiles,
+.rtl .settings-panel .color-tiles .sidebar-bg-options .tiles,
+.mx-3 {
+  margin-left: 0rem !important;
+}
+.table-row1 {
+  background: #f0f0f0;
+  color: #106dd2 !important;
+  font-weight: 500 !important;
+  font-size: 10px;
+}
+.table-row2 {
+  font-weight: 400 !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 0) !important;
+}
+.row1 {
+  background: #f0f0f0;
+}
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.RSPBprogression {
+  background: rgba(0, 116, 217, 1);
+}
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.accomplished {
+  background: #0074d9;
+}
+.MuiTableCell-body {
+  font-family: "Roboto" !important;
+  font-weight: 401 !important;
+  color: #0064d0 !important;
+}
+.RSPBprogressBar {
+  margin: 20px;
+  height: 2px !important;
+  margin-left: 100px;
+  width: auto;
+  margin-right: 100px;
+}
+.tablerow {
+  color: #5e5e5e !important;
+  font-weight: 200;
+}
+.tablerow1 {
+  color: #5e5e5e !important;
+}
+.tablerow1:hover {
+  color: white !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0064d0;
+}
+.selection {
+  max-width: "80px";
+}
+.MuiBadge-badge.MuiBadge-anchorOriginTopRightCircle.MuiBadge-colorPrimary {
+  font-family: "Roboto";
+  font-weight: 700;
+  transform: scale(1.5) translate(200%, -50%);
+  color: #0064d0;
+  background-color: #cee6ff;
+}
+
+.title-1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: "18px";
+  color: #106dd2;
+}
+.badge {
+  z-index: 100;
+}
+.btn-s {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-s:hover {
+  background-color: #106dd2;
+}
+.btn-r {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn-r:hover {
+  background-color: #106dd2;
+}
+.text1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: "0.0275em";
+  color: #106dd2;
+  margin-bottom: "18px";
+}
+.text2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: "0.0275em";
+  color: #495057;
+  margin-bottom: "18px";
+}
+.text3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  letter-spacing: "0.0275em";
+  color: #495057;
+  margin-bottom: "18px";
+}
+.input {
+  height: 38px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header {
+  position: sticky;
+  top: 0px;
+}
+// popUp CSS
+.paper > h6 {
+  font-family: "Roboto";
+  color: #495057;
+}
+.radio {
+  margin-top: 7px !important;
+}
+.radio1 {
+  margin-left: 15px !important;
+  font-size: 10px !important;
+}
+.MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+  width: 280px;
+  padding: 13px;
+}
+.input1 {
+  display: block;
+  width: 100%;
+  background-clip: padding-box;
+}
+.border-between > [class*="col-4"]:before {
+  background: #e3e3e3;
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+.loom {
+  margin-left: 3px;
+  width: 370px;
+}
+.form-control {
+  height: 40px !important;
+}
+.MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+  height: 8px;
+  padding: 10px;
+}

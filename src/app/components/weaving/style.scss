@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0064d0;
+}
+.selection {
+  max-width: "80px";
+}
+.MuiBadge-badge.MuiBadge-anchorOriginTopRightCircle.MuiBadge-colorPrimary {
+  font-family: "Roboto";
+  font-weight: 700;
+  transform: scale(1.5) translate(200%, -50%);
+  color: #0064d0;
+  background-color: #cee6ff;
+}
+
+.title-1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: "18px";
+  color: #106dd2;
+}
+.badge {
+  z-index: 100;
+}
+.card-box {
+  min-width: 375px;
+}
+.btn-s {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-s:hover {
+  background-color: #106dd2;
+}
+.btn-r {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn-r:hover {
+  background-color: #106dd2;
+}
+.text1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: "0.0275em";
+  color: #106dd2;
+  margin-bottom: "18px";
+}
+.text2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: "0.0275em";
+  color: #495057;
+  margin-bottom: "18px";
+}
+.text3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  letter-spacing: "0.0275em";
+  color: #495057;
+  margin-bottom: "18px";
+}
+.input {
+  height: 38px;
+}
+.mdi-heart {
+  color: #ff9898 !important;
+}
+.line {
+  border-right: 1px solid rgb(211, 211, 211);
+}
+.mdi-refresh {
+  color: #ff9898 !important;
+}
+.radio {
+  margin-top: 1px !important;
+}
+
+.mb-3 {
+  margin-bottom: 12px !important;
+}
+.radio1 {
+  margin-left: 15px !important;
+  font-size: 10px !important;
+}
+
+.input2 {
+  width: 280px !important;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+  height: 38px;
+}
+
+// popUp CSS
+.paper > h6 {
+  font-family: "Roboto";
+  color: #495057;
+}
+.MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+  width: 280px;
+  padding: 13px;
+}
+.input1 {
+  display: block;
+  width: 100%;
+  background-clip: padding-box;
+}
+.border-between > [class*="col-4"]:before {
+  background: #e3e3e3;
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+.loom {
+  margin-left: 3px;
+  width: 370px;
+}

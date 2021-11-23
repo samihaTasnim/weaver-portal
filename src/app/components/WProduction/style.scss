@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0064d0;
+}
+.MuiTableCell-root.MuiTableCell-head {
+  color: white;
+}
+.MuiTableCell-root {
+  padding: 10px;
+}
+.MuiTableRow-root .makeStyles-root {
+  cursor: pointer !important;
+}
+.MuiTableRow-head {
+  background: whitesmoke;
+  border-radius: 10px;
+}
+.MuiTableRow-root.MuiTableRow-head > th {
+  font-weight: 500;
+  // color: black;
+}
+.MuiPaper-root.MuiTableContainer-root.MuiPaper-elevation1.MuiPaper-rounded {
+  border-radius: 20px;
+}
+.title1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #106dd2;
+}
+.row1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.search1 {
+  border: 1px solid #106dd2;
+  border-radius: 20px;
+  padding: 6px;
+}
+.bt1 {
+  width: "213px";
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bt1:hover {
+  background-color: #106dd2;
+}
+.btn1:active {
+  background-color: #106dd2 !important;
+}
+.btn2 {
+  background-color: #106dd2;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.MuiOutlinedInput-input {
+  padding: 14px !important;
+}
+
+.RSPBprogression {
+  background: rgba(0, 116, 217, 1);
+}
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MuiBox-root {
+  margin: 0px !important;
+}
+.indexedStep.accomplished {
+  background: #0074d9;
+}
+.btw {
+  // background: #0074d9;
+  box-shadow: 1px 1px 1px 1px black;
+  color: white;
+}
+
+.info {
+  color: #0074d9;
+  font-size: 20px;
+}
+.RSPBprogressBar {
+  margin: 20px;
+  height: 2px !important;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.table-row2 {
+  padding: 2px !important;
+  font-weight: 400 !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 0) !important;
+}
