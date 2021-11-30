@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Roboto",
         fontWeight: 500,
         padding: '30px',
+        paddingBottom: '15px',
         marginBottom: '-1.5rem',
 
     },
@@ -96,7 +97,7 @@ export default function EnquiriesCard({ sizers, card, i , setCards}) {
                     </div>
                     <div className='row'>
                         <h6 className='text1 col-6'> Job Rate :</h6>
-                        <h6 className='text3 col-6'>{card.job_rate}</h6>
+                        <h6 className='text3 col-6'>{card.rate}</h6>
                     </div>
                 </CardContent>
 
@@ -112,11 +113,11 @@ export default function EnquiriesCard({ sizers, card, i , setCards}) {
                         </div>
                         <div className='row'>
                             <h6 className='text1 col-6'>Additional Paper :</h6>
-                            <h6 className='text2 col-6'>{card.paper}</h6>
+                            <h6 className='text2 col-6'>{card.additional_paper || 'None'}</h6>
                         </div>
                         <div className='row'>
                             <h6 className='text1 col-6'>Additional Remark :</h6>
-                            <h6 className='text2 col-6'>{card.remark}</h6>
+                            <h6 className='text2 col-6'>{card.additional_remark || 'n/a'}</h6>
                         </div>
                     </CardContent>
                 </Collapse>

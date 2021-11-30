@@ -261,3 +261,43 @@ body {
   height: 8px;
   padding: 10px;
 }
+
+.selection {
+  height: 20vh;
+  overflow-y: scroll;
+}
+
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+  .btn-s {
+    width: "100px";
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+.selection {
+  height: 20vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.recent-enq {
+  height: 15vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+
+}

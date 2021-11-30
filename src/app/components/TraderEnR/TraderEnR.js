@@ -13,6 +13,7 @@ export default function Production() {
     const [recent, setRecent] = useState([])
     const [cards, setCards] = useState([]);
     const [sizers, setSizzers] = useState([])
+    const [quality, setQuality] = useState('')
 
 
     useEffect(() => {
@@ -20,18 +21,19 @@ export default function Production() {
     }, [])
 
     const searchRecent = async () => {
-        await api().get("/api/weaving_response/recent").then((res) => {
+        await api().get("/api/weaving_enquiry/").then((res) => {
             console.log("res", res);
-            if (res.data.data) {
-                if (localStorage.getItem('postenq')) {
-                    const newArr = res.data.data
-                    newArr.unshift(JSON.parse(localStorage.getItem('postenq')))
-                    setRecent(newArr)
-                }
+            setRecent(res.data.data)
+            // if (res.data.data) {
+            //     if (localStorage.getItem('postenq')) {
+            //         const newArr = res.data.data
+            //         newArr.unshift(JSON.parse(localStorage.getItem('postenq')))
+            //         setRecent(newArr)
+            //     }
 
-            } else {
-                setRecent([])
-            }
+            // } else {
+            //     setRecent([])
+            // }
         })
 
     }
@@ -40,6 +42,7 @@ export default function Production() {
     // api/weaving_enquiry/searchByQuality
     const handleSearchByQuality = async (e) => {
         console.log('e: ', e);
+        setQuality(e)
         const payload = {
             quality: e
         }
@@ -55,12 +58,12 @@ export default function Production() {
         <div>
             <h4 className='title1'>Trading Enquries And Responses</h4>
             <div className='row row1'>
-                <div className='col-6'>
-                    <button onClick={(e) => setWeaver(true)} className='bt1 btn btn-outline-primary btn-rounded '>Trader Enquiry</button>
-                    <button onClick={(e) => setWeaver(false)} className='bt1 btn btn-outline-primary btn-rounded'>Status Of Response</button>
+                <div className='col-12 col-md-6'>
+                    <button onClick={(e) => setWeaver(true)} className='bt1 mb-3 mb-md-0 btn btn-outline-primary btn-rounded '>Trader Enquiry</button>
+                    <button onClick={(e) => setWeaver(false)} className='bt1 btn  mb-3 mb-md-0 btn-outline-primary btn-rounded'>Status Of Response</button>
                 </div>
-                <div className='col-6 posi'>
-                    <input className='search1 float-right input-field' placeholder='Search here...' ></input>
+                <div className='col-12 col-md-6'>
+                    <input className='search1 float-left float-md-right' placeholder='Search here...' ></input>
                 </div>
 
             </div>
@@ -87,7 +90,7 @@ export default function Production() {
                                     <span className='m-2'>
                                         Recived Enquiries For
                                     </span>
-                                    <button type="button" className="btn btn-rounded ml-3 shadow " style={{ backgroundColor: "#0064d0", color: 'white' }}>"63""/128*72/40*40  </button>
+                                    <button type="button" className="btn btn-rounded ml-3 shadow " style={{ backgroundColor: "#0064d0", color: 'white' }}>{quality || '-'} </button>
                                 </h4>
                                 <div className='float-right d-flex'>
                                     <div className='m-2 d-flex'>
@@ -102,7 +105,7 @@ export default function Production() {
                             </div>
                             {cards.map((card, i) => (
                                 <div key={card.id}
-                                    className='col-8 col-lg-4 col-md-5 col-sm-12 mt-3' >
+                                    className='col-12 col-lg-4 col-md-5 mt-3' >
                                     <EnquiriesCard
                                         sizers={sizers}
                                         setCards={setCards}
@@ -121,12 +124,12 @@ export default function Production() {
                             <StatusTable />
                         </div>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col-12 col-md-6'>
                                 <div className='title-1 m-4'>Recent Accepted Responses</div>
                                 <StatusTable2
                                     table="1" />
                             </div>
-                            <div className='col-6'>
+                            <div className='col-12 col-md-6'>
                                 <div className='title-1 m-4'>Recent Rejected Responses</div>
                                 <StatusTable2
                                     table="2" />
